@@ -2,7 +2,7 @@ scalaVersion := "2.10.2"
 
 name := "play2-sprouch"
 
-version := "0.1-SNAPSHOT"
+version := "0.1"
 
 organization := "justjoheinz"
 
