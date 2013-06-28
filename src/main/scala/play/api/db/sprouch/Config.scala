@@ -67,7 +67,6 @@ object Config {
 
         val config = SprouchConfig(actorSystem, dbUrl.getHost(), port, userPass,
           if ("https".equals(dbUrl.getProtocol())) true else false)
-        println(config)
         config
 
       case None =>

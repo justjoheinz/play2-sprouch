@@ -11,11 +11,11 @@ Simply add a dependency to your `project/Build.scala` file  like:
 
     val appDependencies = Seq(
     ...,
-    "justjoheinz" %% "play2-sprouch" % "0.1-SNAPSHOT")
+    "justjoheinz" %% "play2-sprouch" % "0.1.1")
 
 and add the according resolver to the project settings:
 
-      resolvers += "justjoheinz" at "http://justjoheinz.github.io/repository/snapshots"
+      resolvers += "justjoheinz" at "http://justjoheinz.github.io/repository/releases"
 
 ## Usage ##
 

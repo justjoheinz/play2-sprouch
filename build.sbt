@@ -2,7 +2,7 @@ scalaVersion := "2.10.2"
 
 name := "play2-sprouch"
 
-version := "0.1"
+version := "0.1.1"
 
 organization := "justjoheinz"
 
@@ -24,7 +24,7 @@ libraryDependencies ++= {
   Seq(
   "play" %% "play" % playVersion,
   "play" %% "play-test" % playVersion % "test",
-  ("sprouch" %% "sprouch" % "0.5.12-SNAPSHOT").exclude("com.typesafe.akka" , "akka-actor"))
+  ("sprouch" %% "sprouch" % "0.5.11").exclude("com.typesafe.akka" , "akka-actor"))
 }
 
 publishMavenStyle := true
